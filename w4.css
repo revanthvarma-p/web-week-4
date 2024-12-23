@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.link, .services {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.row a:hover, .services:hover {
+    background-color: #ff5555;
+    color: white;
+    transform: scale(1.05);
+}
+
+.services {
+    margin: 10px 0;
+    text-align: center;
+}
+
